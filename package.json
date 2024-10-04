@@ -6,6 +6,7 @@
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
     "@fontsource/roboto": "^5.1.0",
+    "@mui/icons-material": "^6.1.2",
     "@mui/material": "^6.1.1",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -15,7 +16,9 @@
     "@types/react": "^18.3.10",
     "@types/react-dom": "^18.3.0",
     "axios": "^1.7.7",
+    "he": "^1.2.0",
     "jotai": "^2.10.0",
+    "jotai-devtools": "^0.10.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
@@ -45,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/he": "^1.2.3"
   }
 }
