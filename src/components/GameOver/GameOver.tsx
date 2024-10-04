@@ -23,10 +23,10 @@ const GameOver = () => {
       </Typography>
       <Box sx={styles.buttonsContainer}>
         <Button variant='contained' color='primary' onClick={handlePlayAgain}>
-          Reiniciar juego
+          Reiniciar
         </Button>
         <Button variant='contained' color='primary' onClick={handleGoToSetup}>
-          Cambiar configuración
+          Salir
         </Button>
       </Box>
     </Box>
